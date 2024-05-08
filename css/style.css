@@ -1,0 +1,9 @@
+.running-text {
+    white-space: nowrap; /* Prevent text wrapping */
+    animation: marquee 15s linear infinite; /* Animation properties */
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); } /* Start from right side */
+    100% { transform: translateX(-100%); } /* Move to left side */
+}
